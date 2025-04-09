@@ -3,13 +3,17 @@ from django.http import StreamingHttpResponse, JsonResponse
 import cv2
 import numpy as np
 from cvzone.HandTrackingModule import HandDetector
-import google.generativeai as genai
 from PIL import Image
+import google.generativeai as genai
 
-# Initialize gemini
-genai.configure(api_key="Enter_Your_Gemini_API_Key")
-model = genai.GenerativeModel('gemini-1.5-flash')
+# Set up API key
+genai.configure(api_key="AIzaSyCsfggW2g7wbWx7Zk7TV1ecifDHrRkNvxA")
 
+# Use the generate_text method to interact with the model
+response = genai.generate_text(
+    model='gemini-1.5-flash',
+    prompt="Hello, what can you do?"
+)
 # Initialize the HandDetector class with the given parameters
 detector = HandDetector(staticMode=False, maxHands=1, modelComplexity=0, detectionCon=0.75, minTrackCon=0.75)
 
