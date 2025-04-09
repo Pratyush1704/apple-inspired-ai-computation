@@ -1,7 +1,7 @@
 # 🧮 Apple-Inspired AI Calculator
 
 ## 📝 Overview
-The Apple-Inspired AI Calculator is an innovative project that utilizes OpenCV and Google’s Gemini AI to solve mathematical problems of any complexity. The user can draw the math problem on the screen, and the AI model will interpret the visual input to provide a detailed solution. This project is similar to the Apple iPad calculator but leverages advanced AI technology for enhanced functionality and accuracy.
+Apple-Inspired AI Calculator is an innovative application that combines the power of OpenCV, Optical Character Recognition (OCR), and Google’s Gemini AI to solve mathematical problems with exceptional accuracy and ease. Inspired by the sleek functionality of the Apple iPad calculator, this project takes it a step further by enabling users to draw math problems directly on the screen or upload images containing handwritten or typed equations. The system intelligently interprets visual inputs using OCR and computer vision, then leverages Gemini AI to deliver step-by-step, accurate solutions. With a user-friendly front-end interface, the tool ensures a smooth and intuitive experience, making complex problem-solving accessible to students, educators, and enthusiasts alike.
 
 ## ✨ Features
 - ✍️ **Draw Math Problems:** Use your finger to draw any mathematical problem on the screen.
